@@ -13,6 +13,7 @@ typeDefs = gql`
     code_name: String!
     tier: String!
     tags: String!
+    description: String!
   }
 `;
 
