@@ -5,5 +5,6 @@ module.exports = mongoose.model('Item', {
   real_name: String,
   tier: String,
   tags: String,
-  description: String
+  description: String,
+  image_url: String
 });

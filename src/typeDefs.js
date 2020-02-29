@@ -14,6 +14,7 @@ typeDefs = gql`
     tier: String!
     tags: String!
     description: String!
+    image_url: String!
   }
 `;
 
