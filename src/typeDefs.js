@@ -9,6 +9,7 @@ typeDefs = gql`
 
   type Item {
     id: ID!
+    index: Int!
     real_name: String!
     code_name: String!
     tier: String!
