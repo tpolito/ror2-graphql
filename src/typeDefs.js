@@ -5,6 +5,7 @@ typeDefs = gql`
     hello: String!
     items: [Item!]!
     item(code_name: String!): Item!
+    tier(tier: String!): [Item!]!
   }
 
   type Item {
@@ -20,15 +21,3 @@ typeDefs = gql`
 `;
 
 module.exports = typeDefs;
-
-// cats: [Cat!]!
-
-//  type Cat {
-//     # id is a special apollo type
-//     id: ID!
-//     name: String!
-//   }
-
-//   type Mutation {
-//     createCat(name: String!): Cat!
-//   }
