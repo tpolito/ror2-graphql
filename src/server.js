@@ -11,15 +11,15 @@ const startServer = async () => {
 
   const server = new ApolloServer({
     typeDefs,
-    resolvers
+    resolvers,
   });
 
   server.applyMiddleware({ app });
 
   // Wait to make sure mongoDB is connected before the entire server starts
-  await mongoose.connect('mongodb://localhost:27017/test', {
+  await mongoose.connect('mongodb://localhost:27017/ror2', {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
   });
 
   app.listen({ port: 4000 }, () =>

@@ -7,5 +7,5 @@ module.exports = mongoose.model('Item', {
   tier: String,
   tags: String,
   description: String,
-  image_url: String
+  image_url: String,
 });
