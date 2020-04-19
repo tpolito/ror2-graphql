@@ -5,8 +5,11 @@ Project:
   Do not have the data, will have to manually add it.
   ☐ Equipment Data @created(20-02-29 00:18)
   I have this data, just do not have it added to the API yet.
+  ☐ When connecting to the MongoDB Atlas I cannot read any of the info in the items collection. @created(20-04-18 17:44)
+  Unsure why this is, I'm pretty sure I'm connecting. But for some reason cannot read data from the collection.
 
 Misc: 
-
+  ✔ Upload CSV item data to MongoDB Atlas @created(20-04-17 23:44) @done(20-04-18 21:28)
+  https://docs.atlas.mongodb.com/import/mongoimport/
 
 Bugs: 

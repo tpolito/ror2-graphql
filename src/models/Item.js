@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-module.exports = mongoose.model('Item', {
+const ItemSchema = new mongoose.Schema({
   index: Number,
   code_name: String,
   real_name: String,
@@ -9,3 +9,5 @@ module.exports = mongoose.model('Item', {
   description: String,
   image_url: String,
 });
+
+module.exports = mongoose.model('Item', ItemSchema);
