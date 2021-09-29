@@ -1,4 +1,4 @@
-# Description (OUT DATED)
+# Description (OUTDATED)
 
 Barebones implementation for a public RoR2 GraphQL API
 
