@@ -1,6 +1,6 @@
-# Description
+# Description (OUT DATED)
 
-Beta for a public RoR2 GraphQL API
+Barebones implementation for a public RoR2 GraphQL API
 
 ### Queries
 
